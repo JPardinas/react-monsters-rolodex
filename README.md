@@ -1,7 +1,12 @@
-### `Info`
-
-My first React Project, a simple website with Search function
-
-### `HomeSite`
-
-https://jpardinas.github.io/react-monsters-rolodex
+<img src='https://g.gravizo.com/svg?
+ digraph G {
+   main -> parse -> execute;
+   main -> init;
+   main -> cleanup;
+   execute -> make_string;
+   execute -> printf
+   init -> make_string;
+   main -> printf;
+   execute -> compare;
+ }
+'/>
